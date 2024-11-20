@@ -48,7 +48,7 @@ After the detection of an event, the conditional distribution is recalculated.
 
 See here an example notebook plot:
 {% embed url="https://k-pantelidis.github.io/cases/probabilities/public.html" %}
-https://konstantinos-pantelidis.gitbook.io/pcharts/data-metrics/markdown
+
 
 
 
