@@ -28,7 +28,7 @@ $$
 
 Where:
 
-$$(P(E | D = d):$$ The Conditional probability of event $$x$$ given $$D$$ days have elapsed.
+$$P(E | D = d):$$ The Conditional probability of event $$x$$ given $$D$$ days have elapsed.
 
 $$f (d)$$ : Frequency of events after _d_ days.
 
