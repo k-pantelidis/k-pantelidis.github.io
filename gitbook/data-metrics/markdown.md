@@ -6,11 +6,11 @@ icon: markdown
 
 The Conditional Distribution Probability (CDP) is a systematic approach to identifying and analyzing significant events in time series data.
 
-The first step in the CDP Events methodology involves detecting outliers in the time series data using a machine learning algorithm. A $$w$$-day sliding window is employed to continuously assess the data for anomalies. When an outlier is identified at time $$t$$, it is classified as an event.
+The first step in the CDP Events methodology involves detecting outliers in the time series data by utilizing a selected algorithm. A $$w$$-day sliding window is employed to continuously assess the data for anomalies. When an outlier is identified at time $$t$$, it is classified as an event.
 
-Events are categorized based on the asset's price returns following detection:&#x20;
+Events are categorized based on the asset's price returns following detection:
 
-* **Positive Event**: If the asset's price return is positive after the outlier detection.&#x20;
+* **Positive Event**: If the asset's price return is positive after the outlier detection.
 * **Negative Event**: If the asset's price return is negative after the outlier detection.
 
 Once events are classified, a frequency table is constructed to track how many days have elapsed since the last event. The structure of this table includes:
@@ -28,15 +28,13 @@ $$
 
 Where:
 
-$$( P(E | D = d) ):$$ The Conditional probability of event $$x$$ given $$D$$ days have elapsed.
+$$(P(E | D = d):$$ The Conditional probability of event $$x$$ given $$D$$ days have elapsed.
 
 $$f (d)$$ : Frequency of events after _d_ days.
 
 $$n$$ : Total number of days considered.
 
 $${\sum_{i=0}^{n} f(i)}$$ : Total number of frequencies across all days.
-
-
 
 At the moment an event is detected, the probability resets to zero.
 
@@ -47,19 +45,9 @@ $$
 After the detection of an event, the conditional distribution is recalculated.
 
 See here an example notebook plot:
+
 {% embed url="https://k-pantelidis.github.io/cases/probabilities/public.html" %}
 
-
-
-
 Author: [**Pantelidis Konstantinos**](#user-content-fn-1)[^1]
-
-
-
-
-
-
-
-
 
 [^1]: pantelidis.kons@gmail.com
