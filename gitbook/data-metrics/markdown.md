@@ -34,6 +34,8 @@ $$f (d)$$ : Frequency of events after _d_ days.
 
 $$n$$ : Total number of days considered.
 
+$${\sum_{i=0}^{n} f(i)}$$ : Total number of frequencies across all days.
+
 
 
 At the moment an event is detected, the probability resets to zero.
@@ -42,7 +44,9 @@ $$
 P(E | D = 0) = 0
 $$
 
-And the conditional distribution is recalculated.
+After the detection of an event, the conditional distribution is recalculated.
+
+
 
 Author: [**Pantelidis Konstantinos**](#user-content-fn-1)[^1]
 
