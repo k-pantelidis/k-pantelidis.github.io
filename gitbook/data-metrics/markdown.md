@@ -1,0 +1,57 @@
+---
+icon: markdown
+---
+
+# CDP Events
+
+The Conditional Distribution Probability (CDP) is a systematic approach to identifying and analyzing significant events in time series data.
+
+The first step in the CDP Events methodology involves detecting outliers in the time series data using a machine learning algorithm. A $$w$$-day sliding window is employed to continuously assess the data for anomalies. When an outlier is identified at time $$t$$, it is classified as an event.
+
+Events are categorized based on the asset's price returns following detection:&#x20;
+
+* **Positive Event**: If the asset's price return is positive after the outlier detection.&#x20;
+* **Negative Event**: If the asset's price return is negative after the outlier detection.
+
+Once events are classified, a frequency table is constructed to track how many days have elapsed since the last event. The structure of this table includes:
+
+* **Days Elapsed**: Number of days since the last event.
+* **Number of Events**: Count of events that occurred after $$d$$ days.
+
+To analyze the frequency of events, various statistical distributions are fitted to the data. The best-fitting distribution is determined using methods such as the sum of squared errors.
+
+The conditional probability that an event will occur after $$x$$ days have elapsed is calculated using:
+
+$$
+P(E | D = d) = \frac{f(d)}{\sum_{i=0}^{n} f(i)}
+$$
+
+Where:
+
+$$( P(E | D = d) ):$$ The Conditional probability of event $$x$$ given $$D$$ days have elapsed.
+
+$$f (d)$$ : Frequency of events after _d_ days.
+
+$$n$$ : Total number of days considered.
+
+
+
+At the moment an event is detected, the probability resets to zero.
+
+$$
+P(E | D = 0) = 0
+$$
+
+And the conditional distribution is recalculated.
+
+Author: [**Pantelidis Konstantinos**](#user-content-fn-1)[^1]
+
+
+
+
+
+
+
+
+
+[^1]: pantelidis.kons@gmail.com

@@ -1,17 +1,11 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Welcome to PCharts](README.md)
 
-## Getting Started
+## Data Metrics
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
-
-## Basics
-
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [CDP Events](data-metrics/markdown.md)
+* [Images & media](data-metrics/images-and-media.md)
+* [Interactive blocks](data-metrics/interactive-blocks.md)
+* [OpenAPI](data-metrics/openapi.md)
+* [Integrations](data-metrics/integrations.md)
