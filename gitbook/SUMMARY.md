@@ -4,7 +4,7 @@
 
 ## Data Metrics
 
-* [CDP Events](data-metrics/markdown.md)
+* [CDP - Events](data-metrics/markdown.md)
 
 ## About us
 

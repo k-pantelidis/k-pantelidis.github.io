@@ -2,11 +2,11 @@
 icon: markdown
 ---
 
-# CDP Events
+# CDP - Events
 
-The Conditional Distribution Probability (CDP) is a systematic approach to identifying and analyzing significant events in time series data.
+The "Conditional Distribution Probability (CDP) - Events" is a systematic approach to identifying significant events in time series data.
 
-The first step in the CDP Events methodology involves detecting outliers in the time series data by utilizing a selected algorithm. A $$w$$-day sliding window is employed to continuously assess the data for anomalies. When an outlier is identified at time $$t$$, it is classified as an event.
+The first step in the CDP - Events methodology involves detecting outliers in the time series data by utilizing a selected algorithm. A $$w$$-day sliding window is employed to continuously assess the data for anomalies. When an outlier is identified at time $$t$$, it is classified as an event.
 
 Events are categorized based on the asset's price returns following detection:
 
