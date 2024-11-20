@@ -1,6 +1,6 @@
 # Meet Our Team
 
-**Konstantinos Pantelidis**
+## **Konstantinos Pantelidis**
 
 **Methodology - Data Analysis - Documentation**
 
