@@ -1,12 +1,11 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [INTRODUCTION](README.md)
 
 ## Data Metrics
 
 * [CDP Events](data-metrics/markdown.md)
 
-***
+## About us
 
-* [ABOUT](about.md)
-* [Disclaimer](disclaimer.md)
+* [Disclaimer](about-us/disclaimer.md)
