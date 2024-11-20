@@ -1,11 +1,6 @@
 ---
 icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
-coverY: 0
 layout:
-  cover:
-    visible: true
-    size: full
   title:
     visible: true
   description:
@@ -18,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Introduction
+# INTRODUCTION
 
 PCharts is an innovative project aimed at visualizing time series data through a comprehensive and intuitive methodology. Our mission is to create a versatile platform that effectively creates and displays data metrics, ensuring accessibility for developers, scientists, and data enthusiasts alike.
 
