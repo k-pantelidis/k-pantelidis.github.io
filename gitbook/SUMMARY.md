@@ -6,7 +6,7 @@
 
 * [CDP - Events](data-metrics/markdown.md)
 
-## About us
+## About
 
-* [Meet Our Team](about-us/meet-our-team.md)
-* [Disclaimer](about-us/disclaimer.md)
+* [Meet Our Team](about/meet-our-team.md)
+* [Disclaimer](about/disclaimer.md)
