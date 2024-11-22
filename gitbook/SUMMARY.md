@@ -5,6 +5,7 @@
 ## Data Metrics
 
 * [CDP - Events](data-metrics/markdown.md)
+* [TVL to MC Ratio](data-metrics/tvl-to-mc-ratio.md)
 
 ## About
 
