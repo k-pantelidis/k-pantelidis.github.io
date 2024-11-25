@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Methodologies](methodologies/README.md)
-  * [Conditional Distribution Probability (CDP) - Events](Methodologies/ConditionalDistributionProbabilityEvents.md)
+  * [CDP - Events](Methodologies/ConditionalDistributionProbabilityEvents.md)
   * [TVL to MC Ratio](Methodologies/TVL-MC-ratios.md)
 * [About](about/README.md)
   * [Disclaimer](about/disclaimer.md)
