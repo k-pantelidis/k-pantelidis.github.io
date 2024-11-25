@@ -20,27 +20,21 @@ Once events are classified, a frequency table is constructed to track how many d
 
 To analyze the frequency of events, various statistical distributions are fitted to the data. The best-fitting distribution is determined using methods such as the sum of squared errors.
 
-The conditional probability that an event will occur after $$x$$ days have elapsed is calculated using:
 
-$$
-P(E | D = d) = \frac{f(d)}{\sum_{i=0}^{n} f(i)}
-$$
-
-Where:
-
-$$P(E | D = d):$$ The CDP of event $$E$$ given $$d$$ days have elapsed.
-
-$$f (d)$$ : Frequency of events after _d_ days.
-
-$$n$$ : Total number of days considered.
-
-$${\sum_{i=0}^{n} f(i)}$$ : Total number of frequencies across all days.
 
 At the moment an event is detected, the probability resets to zero.
 
 $$
-P(E | D = 0) = 0
+P(E | d = 0) = 0
 $$
+
+The conditional probability that an event $$E$$ will occur after $$x$$ days have elapsed is calculated using the cumulative probability formula for a conditional distribution $$C$$:
+
+$$
+P(E \leq d | C) = \int_{0}^{d} f(e | C) \, de
+$$
+
+
 
 After the detection of an event, the conditional distribution is recalculated.
 
@@ -49,4 +43,3 @@ See here an example notebook plot:
 {% embed url="https://k-pantelidis.github.io/cases/probabilities/public.html" %}
 
 Author: [**Konstantinos Pantelidis**](../about-us/meet-our-team.md#konstantinos-pantelidis)
-
