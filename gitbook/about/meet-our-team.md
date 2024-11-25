@@ -1,6 +1,6 @@
 # Meet Our Team
 
-## **Konstantinos Pantelidis**
+## [**Konstantinos Pantelidis**](https://www.linkedin.com/in/konstantinos-pantelidis/)
 
 **Methodology - Data Analysis - Documentation**
 
@@ -10,11 +10,11 @@ _With over 10 years of experience in the banking sector, I have developed a deep
 
 
 
-## **Georgios Gkinis**
+## [**Georgios Gkinis**](https://www.linkedin.com/in/george-gkinis-35157b67/)
 
-**Workflows**
+**Workflows - Technical Support**
 
-_##._
+
 
 
 

@@ -38,7 +38,7 @@ $$
 
 After the detection of an event, the conditional distribution is recalculated.
 
-See [here](https://k-pantelidis.github.io/cases/probabilities/public.html) an interactive example.
+See [here ](https://k-pantelidis.github.io/methodologies/ConditionalDistributionProbabilityEvents/interactive_plot.html)an interactive example.
 
 
 
