@@ -31,7 +31,7 @@ $$
 The conditional probability that an event $$E$$ will occur after $$d$$ days have elapsed is calculated using the cumulative probability formula for a conditional distribution $$C$$:
 
 $$
-P(E \leq d | C) = \int_{0}^{d} f(e | C) \, de
+P(E \leq d)_{t,C} = \int_{0}^{d} f(e)_{t,C} \, de
 $$
 
 
