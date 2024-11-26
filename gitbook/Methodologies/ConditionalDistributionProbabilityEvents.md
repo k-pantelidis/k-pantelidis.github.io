@@ -2,11 +2,11 @@
 icon: markdown
 ---
 
-# CDP - Events
+# TVDP - Events
 
-The "Conditional Distribution Probability (CDP) - Events" is a systematic approach to identifying significant events in time series data.
+The Time-Varying Distribution Probability (TVDP) - Events is a systematic approach to identifying significant events in time series data.
 
-The first step in the CDP - Events methodology involves detecting outliers in the time series data by utilizing a selected algorithm. A $$w$$-day sliding window is employed to continuously assess the data for anomalies. When an outlier is identified at time $$t$$, it is classified as an event.
+The first step in the TVDP - Events methodology involves detecting outliers in the time series data by utilizing a selected algorithm. A $$w$$-day sliding window is employed to continuously assess the data for anomalies. When an outlier is identified at time $$t$$, it is classified as an event.
 
 Events are categorized based on the asset's price returns following detection:
 
@@ -28,15 +28,15 @@ $$
 P(E | d = 0) = 0
 $$
 
-The conditional probability that an event $$E$$ will occur after $$d$$ days have elapsed is calculated using the cumulative probability formula for a conditional distribution $$C$$:
+The conditional probability that an event $$E$$ will occur after $$d$$ days have elapsed is calculated using the cumulative probability formula for a time-varying distribution $$(TVD)$$:
 
 $$
-P(E \leq d)_{t,C} = \int_{0}^{d} f(e)_{t,C} \, de
+P(E \leq d)_{t,TVD} = \int_{0}^{d} f(e)_{t,TVD} \, de
 $$
 
 
 
-After the detection of an event, the conditional distribution is recalculated.
+After the detection of an event, the TVD is recalculated.
 
 See [here ](https://k-pantelidis.github.io/methodologies/ConditionalDistributionProbabilityEvents/interactive_plot.html)an interactive example.
 
