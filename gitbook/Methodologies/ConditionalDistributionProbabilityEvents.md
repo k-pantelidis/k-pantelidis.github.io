@@ -28,7 +28,7 @@ $$
 P(E | d = 0) = 0
 $$
 
-The conditional probability that an event $$E$$ will occur after $$d$$ days have elapsed is calculated using the cumulative probability formula for a time-varying distribution $$(TVD)$$:
+The TVDP that an event $$E$$ will occur after $$d$$ days have elapsed is calculated using the cumulative probability formula for a time-varying distribution $$(TVD)$$:
 
 $$
 P(E \leq d)_{t,TVD} = \int_{0}^{d} f(e)_{t,TVD} \, de
